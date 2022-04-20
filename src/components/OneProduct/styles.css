@@ -1,0 +1,17 @@
+.one-product{
+    width: calc((100% - 240px)/3);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+}
+.prduct-image{
+
+}
+.product-name{
+    color: gray;
+}
+.product-price{
+    font-weight: 500;
+}

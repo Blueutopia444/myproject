@@ -1,0 +1,63 @@
+.bag-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  transition: all 0.4s ease;
+  z-index: 4;
+}
+.mybag-title {
+  font-weight: bold;
+  text-align: left;
+}
+.mybag-title span {
+  font-weight: normal;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  top: 50px;
+  right: 0;
+  background-color: rgba(110, 109, 109, 0.452);
+  position: fixed;
+  z-index: 3;
+}
+.open-bag {
+  transition: all 1s ease;
+  display: block;
+}
+.close-bag {
+  transition: all 1s ease;
+  display: none;
+}
+.total-counts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+.total-counts p {
+  font-weight: 600;
+  font-size: 1em;
+}
+.checkout-buttons {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.checkout-buttons button {
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid;
+}
+.checkout-buttons button:first-child {
+  background-color: white;
+}
+.checkout-buttons button:nth-child(2) {
+  background-color: #59e884;
+  border-color: #59e884;
+  color: white;
+}

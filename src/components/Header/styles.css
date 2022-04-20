@@ -1,0 +1,87 @@
+.header-container {
+  padding: 20px;
+  margin: 0 40px;
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  position: absolute;
+  left: 50%;
+}
+.tab {
+  color: black;
+  padding: 10px 15px 5px 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  margin: 0 7px;
+  user-select: none;
+}
+.tab a {
+  text-decoration: none;
+}
+.tabs {
+  display: flex;
+}
+.active-tab {
+  color: aqua;
+  border-bottom: 2px solid;
+}
+.active-tab a {
+  color: aqua;
+}
+.tab-contents {
+  color: black;
+}
+
+.caret-menu-item ul li {
+  list-style: none;
+}
+.caret-menu {
+  z-index: 10;
+  box-shadow: 0px 0px 3px -1px black;
+  padding: 0px 20px;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.currency {
+  position: relative;
+}
+.currency span {
+  display: flex;
+  align-items: center;
+}
+.caret-menu {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  transition: all 0.5s ease-in;
+}
+.dollar {
+  margin-right: 10px;
+}
+.currencys {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.currency-icon {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+}
+.cart-container {
+  margin-left: 30px;
+  position: relative;
+}
